@@ -11,8 +11,12 @@
   "license": "ISC",
   "devDependencies": {
     "html-webpack-plugin": "^5.3.1",
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.12",
     "svelte": "^3.38.2",
     "svelte-loader": "^3.1.1",
+    "svelte-preprocess": "^4.7.3",
+    "svelte-preprocess-sass": "^1.0.0",
     "webpack": "^5.35.1",
     "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^3.11.2",

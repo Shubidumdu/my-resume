@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const svelteOptions = require('../svelte.config');
 
 module.exports = {
   entry: './src/index.js',
@@ -24,7 +25,10 @@ module.exports = {
     rules: [
       {
         test: /\.(html|svelte)$/,
-        use: 'svelte-loader',
+        use: {
+          loader: 'svelte-loader',
+          options: svelteOptions,
+        },
       },
       {
         test: /node_modules\/svelte\/.*\.mjs$/,
