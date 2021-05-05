@@ -10,9 +10,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^5.2.4",
     "html-webpack-plugin": "^5.3.1",
     "node-sass": "^5.0.0",
     "sass": "^1.32.12",
+    "style-loader": "^2.0.0",
     "svelte": "^3.38.2",
     "svelte-loader": "^3.1.1",
     "svelte-preprocess": "^4.7.3",
@@ -21,5 +23,8 @@
     "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }

@@ -2,6 +2,6 @@
 
 <style lang="scss">
   div {
-    background: $black;
+    background: $dark;
   }
 </style>
