@@ -1,9 +1,14 @@
 <script>
   import 'normalize.css';
+  import Content from './components/Content.svelte';
   import Profile from './components/Profile.svelte';
+  import Section from './components/Section.svelte';
 </script>
 
 <Profile />
+<Section title="제목">
+  <Content title="소제목">내용</Content>
+</Section>
 
 <style lang="scss">
   @font-face {

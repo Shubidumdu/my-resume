@@ -1,21 +1,23 @@
 <script>
-  import Container from './Container.svelte';
   import Grid from './Grid.svelte';
-
-  export let title;
+  export let title = '';
 </script>
 
-<Container>
+<section class="content">
   <Grid>
     <header>{title}</header>
+    <section>
+      <slot />
+    </section>
   </Grid>
-  <slot />
-</Container>
+</section>
 
 <style lang="scss">
   header {
-    color: $accent;
-    font-size: 2rem;
     text-align: right;
+  }
+
+  .content {
+    margin-top: 2rem;
   }
 </style>
