@@ -1,26 +1,27 @@
 <script>
   import 'normalize.css';
-  import Content from './components/Content.svelte';
+  import Objectives from './components/Objectives.svelte';
   import Profile from './components/Profile.svelte';
-  import Section from './components/Section.svelte';
+  import WorkExperience from './components/WorkExperience.svelte';
 </script>
 
 <Profile />
-<Section title="제목">
-  <Content title="소제목">내용</Content>
-</Section>
+<Objectives />
+<WorkExperience />
 
 <style lang="scss">
   @font-face {
-    font-family: 'IBM';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff')
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
       format('woff');
     font-weight: normal;
     font-style: normal;
   }
 
   :global(body) {
-    font-family: 'IBM';
+    font-family: GmarketSansMedium, -apple-system, BlinkMacSystemFont,
+      'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+      'Helvetica Neue', sans-serif;
     background: $main;
   }
 </style>

@@ -4,12 +4,18 @@
 </script>
 
 <section class="content">
-  <Grid>
-    <header>{title}</header>
+  {#if title}
+    <Grid>
+      <header>{title}</header>
+      <section>
+        <slot />
+      </section>
+    </Grid>
+  {:else}
     <section>
       <slot />
     </section>
-  </Grid>
+  {/if}
 </section>
 
 <style lang="scss">
@@ -19,5 +25,6 @@
 
   .content {
     margin-top: 2rem;
+    line-height: 150%;
   }
 </style>
