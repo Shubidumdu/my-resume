@@ -1,13 +1,9 @@
 <script>
   import 'normalize.css';
   import Profile from './components/Profile.svelte';
-  import Section from './components/Section.svelte';
 </script>
 
 <Profile />
-<Section />
-<Section />
-<Section />
 
 <style lang="scss">
   @font-face {
