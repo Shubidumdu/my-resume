@@ -1,13 +1,15 @@
 <script>
   import 'normalize.css';
-  import Objectives from './components/Objectives.svelte';
+  import Objective from './components/Objective.svelte';
   import Profile from './components/Profile.svelte';
-  import WorkExperience from './components/WorkExperience.svelte';
+  import Projects from './components/Projects.svelte';
+  import WorkExperiences from './components/WorkExperiences.svelte';
 </script>
 
 <Profile />
-<Objectives />
-<WorkExperience />
+<Objective />
+<WorkExperiences />
+<Projects />
 
 <style lang="scss">
   @font-face {

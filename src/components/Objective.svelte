@@ -3,7 +3,7 @@
   import Section from './Section.svelte';
 </script>
 
-<Section title="Objectives">
+<Section title="Objective">
   <Content
     >비전공자임에도 많은 개인 프로젝트 경험과 더불어, 스타트업에서의 1인
     개발자로써 풀스택 포지션을 도맡아 업무를 수행한 경험이 있습니다. 수직적

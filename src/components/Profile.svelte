@@ -6,12 +6,42 @@
   import FaInstagram from 'svelte-icons/fa/FaInstagram.svelte';
   import Grid from './Grid.svelte';
   import Container from './Container.svelte';
+  import profileImg from '../../assets/profile.jpg';
+
+  const contacts = [
+    {
+      href: 'mailto:skaty4870@naver.com',
+      icon: MdEmail,
+      name: 'skaty4870@naver.com',
+    },
+    {
+      href: 'https://github.com/Shubidumdu',
+      icon: FaGithub,
+      name: 'Shubidumdu',
+    },
+    {
+      href: 'https://stackoverflow.com/users/14672911/won-gyo-seo',
+      icon: FaStackOverflow,
+      name: 'user:14672911',
+    },
+    {
+      href:
+        'https://www.linkedin.com/in/%EC%9B%90%EA%B5%90-%EC%84%9C-a9b7b01ba/',
+      icon: FaLinkedin,
+      name: '서원교',
+    },
+    {
+      href: 'https://www.instagram.com/wongyosuh/',
+      icon: FaInstagram,
+      name: 'wongyosuh',
+    },
+  ];
 </script>
 
 <Container>
   <Grid>
     <div class="image">
-      <img alt="서원교" src="https://www.w3schools.com/w3css/img_avatar3.png" />
+      <img alt="서원교" src={profileImg} />
     </div>
     <div class="info">
       <header class="name">
@@ -19,26 +49,14 @@
         <span class="en">SEO WON GYO</span>
       </header>
       <section class="contact">
-        <div class="item">
-          <div class="icon"><MdEmail /></div>
-          skaty4870@naver.com
-        </div>
-        <div class="item">
-          <div class="icon"><FaGithub /></div>
-          Shubidumdu
-        </div>
-        <div class="item">
-          <div class="icon"><FaStackOverflow /></div>
-          user:14672911
-        </div>
-        <div class="item">
-          <div class="icon"><FaLinkedin /></div>
-          서원교
-        </div>
-        <div class="item">
-          <div class="icon"><FaInstagram /></div>
-          wongyosuh
-        </div>
+        {#each contacts as { href, icon, name }}
+          <div class="item">
+            <a target="_blank" rel="noopener noreferrer" {href}>
+              <div class="icon"><svelte:component this={icon} /></div>
+              {name}
+            </a>
+          </div>
+        {/each}
       </section>
     </div>
   </Grid>
@@ -53,6 +71,7 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
+      border-radius: 0.5rem;
     }
   }
 
@@ -71,9 +90,20 @@
     .contact {
       margin-top: 2rem;
 
-      .item {
+      .item,
+      a {
         display: flex;
         align-items: center;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+        transition: 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+
+        &:hover {
+          color: $accent;
+        }
       }
 
       .icon {
