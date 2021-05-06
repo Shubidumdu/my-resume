@@ -1,10 +1,13 @@
 <script>
-  import Test from './components/Test.svelte';
   import 'normalize.css';
+  import Profile from './components/Profile.svelte';
+  import Section from './components/Section.svelte';
 </script>
 
-<h1>Hello, Svelte!</h1>
-<Test />
+<Profile />
+<Section />
+<Section />
+<Section />
 
 <style lang="scss">
   @font-face {
@@ -17,5 +20,6 @@
 
   :global(body) {
     font-family: 'IBM';
+    background: $main;
   }
 </style>

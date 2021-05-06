@@ -3932,6 +3932,11 @@ svelte-hmr@^0.12.3:
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.12.9.tgz#e323b71062a59bf4b73d2d5a7cc80dba256217e1"
   integrity sha512-SGE7Odznj4dqZtUVIWcoPCvZ9gHImxVIIjrz+O3DDSi0j4OaSLim6MRF4UdhlBKeW3glSRc+tXNSKYvM5x+Dyw==
 
+svelte-icons@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/svelte-icons/-/svelte-icons-2.1.0.tgz#6f2ec72f1d5c8b2de1a4b8a822c95bcb2f701aca"
+  integrity sha512-rHPQjweEc9fGSnvM0/4gA3pDHwyZyYsC5KhttCZRhSMJfLttJST5Uq0B16Czhw+HQ+HbSOk8kLigMlPs7gZtfg==
+
 svelte-loader@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/svelte-loader/-/svelte-loader-3.1.1.tgz#cb03541214b164edee58e4c98d4303f76df9013d"

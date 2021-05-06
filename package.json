@@ -25,6 +25,7 @@
     "webpack-merge": "^5.7.3"
   },
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "svelte-icons": "^2.1.0"
   }
 }
