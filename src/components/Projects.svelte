@@ -26,6 +26,30 @@
       ],
       descs: ['(주)더몽에서 개발한 쉐어하우스 플랫폼'],
     },
+    {
+      period: '2020',
+      title: '절대집중시간 : 반복 집중/휴식 웹 타이머',
+      subtitle: '개인',
+      tags: ['HTML', 'CSS', 'JavaScript'],
+      descs: ['반복 집중 / 휴식 웹 타이머', 'VanillaJS 기반 개발'],
+    },
+    {
+      period: '2020',
+      title: '인간안면보고서 : 얼굴 이미지 분석 웹 앱',
+      subtitle: '개인',
+      tags: [
+        'TypeScript',
+        'ReactJS',
+        'Node.js',
+        'Redux',
+        'redux-thunk',
+        'styled-components',
+        'ExpressJS',
+        'Naver Clova API',
+        'Heroku',
+      ],
+      descs: ['얼굴 이미지 분석 웹 앱'],
+    },
   ];
 </script>
 
