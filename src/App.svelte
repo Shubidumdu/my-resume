@@ -1,5 +1,7 @@
 <script>
   import 'normalize.css';
+  import Activities from './components/Activities.svelte';
+  import Education from './components/Education.svelte';
   import Objective from './components/Objective.svelte';
   import Profile from './components/Profile.svelte';
   import Projects from './components/Projects.svelte';
@@ -10,6 +12,8 @@
 <Objective />
 <WorkExperiences />
 <Projects />
+<Activities />
+<Education />
 
 <style lang="scss">
   @font-face {

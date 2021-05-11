@@ -52,23 +52,6 @@
     },
     {
       period: '2020',
-      title: '인간안면보고서 : 얼굴 이미지 분석 웹 앱',
-      subtitle: '개인',
-      tags: [
-        'TypeScript',
-        'ReactJS',
-        'Node.js',
-        'Redux',
-        'redux-thunk',
-        'styled-components',
-        'ExpressJS',
-        'Naver Clova API',
-        'Heroku',
-      ],
-      descs: ['얼굴 이미지 분석 웹 앱'],
-    },
-    {
-      period: '2020',
       title: '오깔라 : 옷 색깔 조합 추천 PWA',
       subtitle: '개인',
       tags: [
