@@ -8,27 +8,32 @@
   const projects = [
     {
       period: '2020',
-      title: '절대집중시간 : 반복 집중/휴식 웹 타이머',
-      subtitle: '개인',
-      tags: ['HTML', 'CSS', 'JavaScript'],
-      descs: ['반복 집중 / 휴식 웹 타이머', 'VanillaJS 기반 개발'],
-    },
-    {
-      period: '2020',
       title: '인간안면보고서 : 얼굴 이미지 분석 웹 앱',
       subtitle: '개인',
       tags: [
+        'JavaScript',
         'TypeScript',
-        'ReactJS',
+        'React',
         'Node.js',
         'Redux',
         'redux-thunk',
         'styled-components',
         'ExpressJS',
-        'Naver Clova API',
         'Heroku',
       ],
-      descs: ['얼굴 이미지 분석 웹 앱'],
+      descs: [
+        'Naver Clova API를 활용',
+        '얼굴 이미지에 대한 닮은꼴 / 나이 / 성별 / 표정을 분석하여 제공',
+      ],
+      url: 'https://human-face-report.herokuapp.com/',
+    },
+    {
+      period: '2020',
+      title: '절대집중시간 : 반복 집중/휴식 웹 타이머',
+      subtitle: '개인',
+      tags: ['HTML', 'CSS', 'JavaScript'],
+      descs: ['반복 집중 / 휴식 웹 타이머', 'VanillaJS로 개발'],
+      url: 'https://shubidumdu.github.io/hyper-focus-time/',
     },
     {
       period: '2020',
@@ -49,6 +54,7 @@
         'AWS Cloudfront',
       ],
       descs: ['(주)더몽에서 개발한 쉐어하우스 플랫폼'],
+      url: 'https://www.mingletown.co.kr/',
     },
     {
       period: '2020',
@@ -69,6 +75,7 @@
         'AWS Lambda',
       ],
       descs: ['얼굴 이미지 분석 웹 앱'],
+      url: 'https://d1ys81f4zruh8t.cloudfront.net/',
     },
     {
       period: '2021',
@@ -76,6 +83,7 @@
       subtitle: '(주)더몽',
       tags: [],
       descs: ['얼굴 이미지 분석 웹 앱'],
+      url: 'https://themong.kr/',
     },
     {
       period: '2021',
@@ -86,6 +94,7 @@
         '이른 새벽시간에 진행되는 온라인 영어회화 스터디 서비스',
         '랜딩 페이지 및 임시적인 스터디 신청 페이지 개발 및 배포',
       ],
+      url: 'https://www.daybreaklab.com/',
     },
     {
       period: '2021',
@@ -96,14 +105,15 @@
         '크라우드 펀딩에 따라 제공될 리워드를 임시적으로 쿠폰 형태로 전달',
         '쿠폰번호와 유저 정보를 매칭하여 여가 서비스를 예약 및 제공',
       ],
+      url: 'https://d22p0rwzk85ukz.cloudfront.net/',
     },
   ];
 </script>
 
 <Section title="Projects">
-  {#each projects as { period, title, subtitle, tags, descs }}
+  {#each projects as { period, title, subtitle, tags, descs, url }}
     <Content title={period}>
-      <Article {title} {subtitle}>
+      <Article {title} {subtitle} {url}>
         <Tags {tags} />
         <List items={descs} />
       </Article>

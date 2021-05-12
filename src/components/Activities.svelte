@@ -17,6 +17,7 @@
         '주로 프론트엔드 포지션을 담당',
       ],
       tags: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'Ruby on Rails'],
+      url: 'https://www.likelion.net/',
     },
     {
       period: '2019. 07 ~ 2019. 12',
@@ -43,14 +44,15 @@
         '데이터 예측 컴피티션 참여',
       ],
       tags: [],
+      url: 'https://www.facebook.com/kookmin.bigdata.dna2013/',
     },
   ];
 </script>
 
 <Section title="Activities">
-  {#each activities as { period, title, subtitle, descs, tags }}
+  {#each activities as { period, title, subtitle, descs, url }}
     <Content title={period}>
-      <Article {title} {subtitle}>
+      <Article {title} {subtitle} {url}>
         <List items={descs} />
       </Article>
     </Content>
