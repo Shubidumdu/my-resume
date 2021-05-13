@@ -21,10 +21,19 @@
 <style lang="scss">
   header {
     text-align: right;
+
+    @media (max-width: 768px) {
+      color: $main;
+      text-align: left;
+    }
   }
 
   .content {
     margin-top: 2rem;
     line-height: 150%;
+
+    @media (max-width: 768px) {
+      text-align: left;
+    }
   }
 </style>

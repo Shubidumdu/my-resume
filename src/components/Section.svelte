@@ -17,5 +17,9 @@
     color: $accent;
     font-size: 2rem;
     text-align: right;
+
+    @media (max-width: 768px) {
+      text-align: left;
+    }
   }
 </style>

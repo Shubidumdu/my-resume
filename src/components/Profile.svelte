@@ -25,8 +25,7 @@
       name: 'user:14672911',
     },
     {
-      href:
-        'https://www.linkedin.com/in/%EC%9B%90%EA%B5%90-%EC%84%9C-a9b7b01ba/',
+      href: 'https://www.linkedin.com/in/%EC%9B%90%EA%B5%90-%EC%84%9C-a9b7b01ba/',
       icon: FaLinkedin,
       name: '서원교',
     },
@@ -72,6 +71,16 @@
       height: 100%;
       object-fit: cover;
       border-radius: 0.5rem;
+    }
+
+    @media (max-width: 768px) {
+      max-width: 320px;
+      margin-bottom: 1rem;
+    }
+
+    @media (max-width: 425px) {
+      max-width: 100%;
+      margin-bottom: 1rem;
     }
   }
 

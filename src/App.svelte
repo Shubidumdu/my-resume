@@ -1,19 +1,9 @@
 <script>
   import 'normalize.css';
-  import Activities from './components/Activities.svelte';
-  import Education from './components/Education.svelte';
-  import Objective from './components/Objective.svelte';
-  import Profile from './components/Profile.svelte';
-  import Projects from './components/Projects.svelte';
-  import WorkExperiences from './components/WorkExperiences.svelte';
+  import Main from './components/Main.svelte';
 </script>
 
-<Profile />
-<Objective />
-<WorkExperiences />
-<Projects />
-<Activities />
-<Education />
+<Main />
 
 <style lang="scss">
   @font-face {
@@ -28,6 +18,6 @@
     font-family: GmarketSansMedium, -apple-system, BlinkMacSystemFont,
       'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
       'Helvetica Neue', sans-serif;
-    /* background: $main; */
+    word-break: keep-all;
   }
 </style>

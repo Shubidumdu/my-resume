@@ -9,3 +9,11 @@
     {/each}
   </ul>
 {/if}
+
+<style lang="scss">
+  li {
+    & + & {
+      margin-top: 0.25rem;
+    }
+  }
+</style>

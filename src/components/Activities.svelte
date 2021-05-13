@@ -11,10 +11,10 @@
       title: '멋쟁이 사자처럼',
       subtitle: '6기',
       descs: [
-        '대학교 별 교육 진행을 통한 웹 개발 입문',
+        '웹 프로그래밍 연합 동아리',
         'HTML / CSS / JavaScript / Ruby / Ruby on Rails',
-        '수 차례 해커톤 경험',
-        '주로 프론트엔드 포지션을 담당',
+        '대학교 별로 진행되는 교육 이수를 통한 웹 개발 입문',
+        '수 차례 해커톤 경험 - 주로 프론트엔드 포지션 담당',
       ],
       tags: ['HTML', 'CSS', 'JavaScript', 'Ruby', 'Ruby on Rails'],
       url: 'https://www.likelion.net/',
@@ -35,7 +35,7 @@
       title: '멋쟁이 사자처럼 크리에이티브',
       subtitle: '1기',
       descs: [
-        'Adobe 디자인 툴에 관한 교육 이수',
+        'Adobe 디자인 교육 연합 동아리',
         '그 중에서도 주로 Adobe XD를 통한 프로토타이핑에 대해 배웠음',
         '국민대 / 숙명여대 / 성균관대 연합의 Adobe XD 디자인 세미나 주최',
       ],

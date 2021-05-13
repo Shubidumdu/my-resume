@@ -1,0 +1,24 @@
+<script>
+  import Activities from './Activities.svelte';
+  import Education from './Education.svelte';
+  import Objective from './Objective.svelte';
+  import Profile from './Profile.svelte';
+  import Projects from './Projects.svelte';
+  import WorkExperiences from './WorkExperiences.svelte';
+</script>
+
+<main>
+  <Profile />
+  <Objective />
+  <WorkExperiences />
+  <Projects />
+  <Activities />
+  <Education />
+</main>
+
+<style>
+  main {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+</style>
