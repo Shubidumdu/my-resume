@@ -20,6 +20,17 @@
       url: 'https://www.likelion.net/',
     },
     {
+      period: '2018. 08 ~ 2018. 12',
+      title: 'D&A : 국민대학교 데이터 분석 학회',
+      subtitle: 'ML Session',
+      descs: [
+        'R 기반의 머신러닝 교육 이수 및 과제 수행',
+        '데이터 예측 컴피티션 참여',
+      ],
+      tags: [],
+      url: 'https://www.facebook.com/kookmin.bigdata.dna2013/',
+    },
+    {
       period: '2019. 07 ~ 2019. 12',
       title: '멋쟁이 사자처럼 크리에이티브',
       subtitle: '1기',
@@ -34,17 +45,6 @@
         'Adobe Illustrator',
         'Adobe Premiere',
       ],
-    },
-    {
-      period: '2019. 07 ~ 2019. 12',
-      title: 'D&A : 국민대학교 데이터 분석 학회',
-      subtitle: 'ML Session',
-      descs: [
-        'R 기반의 머신러닝 교육 이수 및 과제 수행',
-        '데이터 예측 컴피티션 참여',
-      ],
-      tags: [],
-      url: 'https://www.facebook.com/kookmin.bigdata.dna2013/',
     },
   ];
 </script>

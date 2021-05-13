@@ -28,6 +28,6 @@
     font-family: GmarketSansMedium, -apple-system, BlinkMacSystemFont,
       'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
       'Helvetica Neue', sans-serif;
-    background: $main;
+    /* background: $main; */
   }
 </style>
