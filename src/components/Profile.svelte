@@ -86,6 +86,11 @@
 
   .info {
     .name {
+      @media (max-width: 350px) {
+        display: flex;
+        flex-direction: column;
+      }
+
       .ko {
         font-size: 2rem;
       }
@@ -93,6 +98,11 @@
       .en {
         font-size: 1.25rem;
         margin-left: 1rem;
+
+        @media (max-width: 350px) {
+          margin-left: 0;
+          margin-top: 0.5rem;
+        }
       }
     }
 
