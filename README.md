@@ -1,3 +1,7 @@
-# 들어가야할 내용
+# Shubidumdu's Resume
 
-##
+## Tech Stacks
+
+- JavaScript
+- Svelte
+- SASS/SCSS
