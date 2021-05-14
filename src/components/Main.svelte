@@ -1,5 +1,7 @@
 <script>
   import Activities from './Activities.svelte';
+  import Awards from './Awards.svelte';
+  import Certificates from './Certificates.svelte';
   import Education from './Education.svelte';
   import Objective from './Objective.svelte';
   import Profile from './Profile.svelte';
@@ -13,6 +15,8 @@
   <WorkExperiences />
   <Projects />
   <Activities />
+  <Awards />
+  <Certificates />
   <Education />
 </main>
 

@@ -9,11 +9,6 @@ module.exports = {
     filename: '[name].bundle.js',
     clean: true,
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      title: 'Resume - Seo Won Gyo',
-    }),
-  ],
   resolve: {
     alias: {
       svelte: path.resolve('node_modules', 'svelte'),
@@ -21,10 +16,22 @@ module.exports = {
     extensions: ['.mjs', '.js', '.svelte'],
     mainFields: ['svelte', 'browser', 'module', 'main'],
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/public/index.html',
+      favicon: './src/public/favicon.ico',
+    }),
+  ],
   module: {
     rules: [
       {
-        test: /\.(html|svelte)$/,
+        test: /\.html$/,
+        use: {
+          loader: 'html-loader',
+        },
+      },
+      {
+        test: /\.svelte$/,
         use: {
           loader: 'svelte-loader',
           options: svelteOptions,
