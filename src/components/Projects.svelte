@@ -174,6 +174,7 @@
         '"콘웨이의 생명게임"을 Rust 기반의 Web Assembly로 구현',
         'Three.js를 통한 canvas 3D 그래픽 작업',
       ],
+      url: 'https://shubidumdu.github.io/game-of-life-client/',
     },
   ];
 </script>
