@@ -15,7 +15,7 @@
     {
       period: '2014. 03 ~ 2020. 02',
       title: '국민대학교',
-      subtitle: '학사 졸업',
+      subtitle: '학사 졸업 : 3.84 / 4.5',
       descs: ['빅데이터경영통계 심화전공', '소프트웨어 부전공'],
       url: 'https://www.kookmin.ac.kr/user/index.do',
     },
