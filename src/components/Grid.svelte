@@ -18,5 +18,9 @@
       grid-template-columns: 100%;
       grid-row-gap: 1rem;
     }
+
+    @media print {
+      break-inside: avoid;
+    }
   }
 </style>

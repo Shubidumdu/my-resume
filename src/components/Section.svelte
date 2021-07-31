@@ -21,5 +21,9 @@
     @media (max-width: 768px) {
       text-align: left;
     }
+
+    @media print {
+      font-size: 1.5rem;
+    }
   }
 </style>

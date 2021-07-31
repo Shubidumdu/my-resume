@@ -82,6 +82,10 @@
       max-width: 100%;
       margin-bottom: 1rem;
     }
+
+    @media print {
+      display: none;
+    }
   }
 
   .info {

@@ -32,6 +32,10 @@
         color: $accent;
       }
     }
+
+    @media print {
+      font-size: 1.25rem;
+    }
   }
 
   .sub-title {
