@@ -176,6 +176,19 @@
       ],
       url: 'https://shubidumdu.github.io/game-of-life-client/',
     },
+    {
+      period: '2021. 09',
+      title: 'Astroach',
+      subtitle: '개인',
+      tags: ['JavaScript', 'Canvas API', 'Webpack', 'Github Pages'],
+      descs: [
+        '4x4 타일 위에서의 스피디한 웹 기반의 액션게임',
+        '2021년도 JS 13K Games의 Desktop / Mobile 부문 참가',
+        '최종 빌드 결과물이 13kb 이하여야 한다는 컨셉의 컴피티션',
+        '번들 용량을 최소화하기 위하여 Vanilla JS와 Canvas API만 활용',
+      ],
+      url: 'https://js13kgames.com/entries/astroach',
+    },
   ];
 </script>
 
