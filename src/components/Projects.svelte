@@ -189,7 +189,7 @@
       ],
       url: 'https://js13kgames.com/entries/astroach',
     },
-  ];
+  ].reverse();
 </script>
 
 <Section title="Projects">
