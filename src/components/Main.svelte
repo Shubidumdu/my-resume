@@ -31,6 +31,7 @@
       content: "해당 이력서는 'https://shubidumdu.github.io/my-resume/'에서 더 원활하게 보실 수 있습니다.";
       text-align: center;
       color: #9c9ca9;
+      font-size: 0.5rem;
       margin-left: 1rem;
       margin-bottom: 2rem;
     }

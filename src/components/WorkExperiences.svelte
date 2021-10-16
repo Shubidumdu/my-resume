@@ -5,8 +5,17 @@
   import List from './List.svelte';
   const contents = [
     {
+      period: '2021. 10 ~',
+      title: "그렙",
+      position: '프론트엔드 개발',
+      desc: [
+        '프로그래머스 채용플랫폼팀 프론트엔드 개발'
+      ],
+      url: 'https://www.grepp.co/'
+    },
+    {
       period: '2020. 05 ~ 2021. 05',
-      title: '(주)더몽',
+      title: '더몽',
       position: '웹 풀스택 개발',
       desc: [
         '1인 개발자로서 프로젝트 개발, 배포 및 유지보수를 총괄적으로 담당',
