@@ -6,7 +6,7 @@
   import Tags from './Tags.svelte';
   const contents = [
     {
-      period: '2021. 10 ~',
+      period: '2021. 10 ~ 2023. 04',
       title: '그렙',
       position: '채용플랫폼개발팀',
       desc: [
