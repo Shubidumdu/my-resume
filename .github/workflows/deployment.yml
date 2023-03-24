@@ -11,7 +11,7 @@ jobs:
       - uses: actions/configure-pages@v3.0.5
       - uses: actions/setup-node@v3.6.0
         with:
-          node-version: 16
+          node-version: 15
       - run: |
           npm install
           npm run build

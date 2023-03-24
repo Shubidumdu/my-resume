@@ -8,8 +8,8 @@
     "start": "webpack serve --open --config ./webpack/webpack.dev.js"
   },
   "engines": {
-    "npm": "8.19.3",
-    "node": "16.19.1"
+    "npm": "7.7.6",
+    "node": "15.14.0"
   },
   "author": "",
   "license": "ISC",
