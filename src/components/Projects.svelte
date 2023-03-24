@@ -111,6 +111,13 @@
       ],
       url: 'https://js13kgames.com/entries/finn-the-little-collector',
     },
+    {
+      period: '2023',
+      title: 'Dice 3D',
+      tags: ['TypeScript', 'Webpack', 'Three.js', 'Cannon.js', 'SASS'],
+      descs: ['Three.js와 Cannon.js를 활용한 3D 주사위 굴리기'],
+      url: 'https://shubidumdu.github.io/dice-3d/',
+    },
   ].reverse();
 </script>
 
