@@ -3,7 +3,6 @@
   import Content from './Content.svelte';
   import List from './List.svelte';
   import Section from './Section.svelte';
-  import Tags from './Tags.svelte';
 
   const activities = [
     {

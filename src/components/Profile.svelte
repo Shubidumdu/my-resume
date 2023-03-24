@@ -3,10 +3,9 @@
   import FaGithub from 'svelte-icons/fa/FaGithub.svelte';
   import FaStackOverflow from 'svelte-icons/fa/FaStackOverflow.svelte';
   import FaLinkedin from 'svelte-icons/fa/FaLinkedin.svelte';
-  import FaInstagram from 'svelte-icons/fa/FaInstagram.svelte';
   import Grid from './Grid.svelte';
   import Container from './Container.svelte';
-  import profileImg from '../../assets/profile.jpg';
+  import profileImg from '../../assets/profile.jpeg';
 
   const contacts = [
     {
@@ -28,11 +27,6 @@
       href: 'https://www.linkedin.com/in/%EC%9B%90%EA%B5%90-%EC%84%9C-a9b7b01ba/',
       icon: FaLinkedin,
       name: '서원교',
-    },
-    {
-      href: 'https://www.instagram.com/wongyosuh/',
-      icon: FaInstagram,
-      name: 'wongyosuh',
     },
   ];
 </script>
