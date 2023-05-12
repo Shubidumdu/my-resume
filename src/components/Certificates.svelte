@@ -20,13 +20,22 @@
         '국가공인민간자격 취득',
       ],
     },
+    {
+      period: '2023. 05',
+      title: 'AWS Certified Solutions Architect – Associate',
+      sutitle: 'Amazon Web Services',
+      descs: [
+        'AWS 클라우드 기술을 활용한 솔루션 설계 및 구축',
+      ],
+      url: 'https://www.credly.com/badges/a3a007d3-9007-499d-9970-0b1396fff9d0/public_url'
+    }
   ];
 </script>
 
 <Section title="Certificates">
-  {#each certificates as { period, title, subtitle, descs }}
+  {#each certificates as { period, title, subtitle, descs, url }}
     <Content title={period}>
-      <Article {title} {subtitle} />
+      <Article {title} {subtitle} {url} />
       <List items={descs} />
     </Content>
   {/each}
