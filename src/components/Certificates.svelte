@@ -29,7 +29,7 @@
       ],
       url: 'https://www.credly.com/badges/a3a007d3-9007-499d-9970-0b1396fff9d0/public_url'
     }
-  ];
+  ].reverse();
 </script>
 
 <Section title="Certificates">

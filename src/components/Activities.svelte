@@ -45,7 +45,7 @@
         'Adobe Premiere',
       ],
     },
-  ];
+  ].reverse();
 </script>
 
 <Section title="Activities">
