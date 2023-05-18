@@ -114,9 +114,16 @@
     {
       period: '2023',
       title: 'Dice 3D',
-      tags: ['TypeScript', 'Webpack', 'Three.js', 'Cannon.js', 'SASS'],
+      tags: ['TypeScript', 'Webpack', 'Three.js', 'Cannon.js', 'SASS', 'Github Pages'],
       descs: ['Three.js와 Cannon.js를 활용한 3D 주사위 굴리기'],
       url: 'https://shubidumdu.github.io/dice-3d/',
+    },
+    {
+      period: '2023',
+      title: '환세희담',
+      tags: ['TypeScript', 'js-dos', 'SASS', 'Webpack', 'Github Pages'],
+      descs: ['1995년 발매된 환세 시리즈의 첫 작품인 환세희담의 웹 버전', 'js-dos를 통해 기존 DOS 버전을 그대로 이식'],
+      url: 'https://shubidumdu.github.io/hwanseheedam/',
     },
   ].reverse();
 </script>
