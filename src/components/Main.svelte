@@ -15,8 +15,8 @@
   <WorkExperiences />
   <Projects />
   <Activities />
-  <Awards />
   <Certificates />
+  <Awards />
   <Education />
 </main>
 
