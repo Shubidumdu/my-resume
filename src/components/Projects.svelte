@@ -125,6 +125,13 @@
       descs: ['1995년 발매된 환세 시리즈의 첫 작품인 환세희담의 웹 버전', 'js-dos를 통해 기존 DOS 버전을 그대로 이식'],
       url: 'https://shubidumdu.github.io/hwanseheedam/',
     },
+    {
+      period: '2023',
+      title: 'Sketchbook',
+      tags: ['TypeScript', 'BabylonJS', 'WebGL', 'WebGPU', 'Vite', 'SASS', 'Github Pages'],
+      descs: ['WebGL/WebGPU와 BabylonJS를 활용한 캔버스 그래픽 작업물들을 모아두는 사이트'],
+      url: 'https://shubidumdu.github.io/sketchbook/',
+    },
   ].reverse();
 </script>
 
