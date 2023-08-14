@@ -11,7 +11,6 @@
       position: '채용플랫폼개발팀',
       desc: [
         '프로그래머스 커리어 플랫폼 유지 보수, 이슈 대처 및 신규 기능 개발',
-        '기존 모놀리틱에서 Webpack Module Federation을 이용한 마이크로 프론트엔드 구조로 프로젝트 마이그레이션',
       ],
       tags: [
         'JavaScript',
