@@ -134,7 +134,7 @@
     },
     {
       period: '2023',
-      title: 'LIGHT OUT, SHOT DOWN',
+      title: 'LIGHTS OUT, SHOT DOWN',
       tags: ['TypeScript', 'BabylonJS', 'GLSL', 'Vite'],
       descs: ['1BIT 셰이더를 적용한 3D 병 슈팅 게임', 'itch.io의 1BIT JAM 제출작'],
       url: 'https://itch.io/jam/1-bit-jam-wow/rate/2224187',
