@@ -132,6 +132,13 @@
       descs: ['WebGL/WebGPU와 BabylonJS를 활용한 캔버스 그래픽 작업물들을 모아두는 사이트'],
       url: 'https://shubidumdu.github.io/sketchbook/',
     },
+    {
+      period: '2023',
+      title: 'LIGHT OUT, SHOT DOWN',
+      tags: ['TypeScript', 'BabylonJS', 'GLSL', 'Vite'],
+      descs: ['1BIT 셰이더를 적용한 3D 병 슈팅 게임', 'itch.io의 1BIT JAM 제출작'],
+      url: 'https://itch.io/jam/1-bit-jam-wow/rate/2224187',
+    },
   ].reverse();
 </script>
 
