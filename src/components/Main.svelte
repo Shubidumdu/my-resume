@@ -3,7 +3,6 @@
   import Awards from './Awards.svelte';
   import Certificates from './Certificates.svelte';
   import Education from './Education.svelte';
-  import Objective from './Objective.svelte';
   import Profile from './Profile.svelte';
   import Projects from './Projects.svelte';
   import WorkExperiences from './WorkExperiences.svelte';
@@ -11,7 +10,6 @@
 
 <main>
   <Profile />
-  <Objective />
   <WorkExperiences />
   <Projects />
   <Activities />
