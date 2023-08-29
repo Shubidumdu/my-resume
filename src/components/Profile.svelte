@@ -3,20 +3,26 @@
   import FaGithub from 'svelte-icons/fa/FaGithub.svelte';
   import FaStackOverflow from 'svelte-icons/fa/FaStackOverflow.svelte';
   import FaLinkedin from 'svelte-icons/fa/FaLinkedin.svelte';
+  import FaDev from 'svelte-icons/fa/FaDev.svelte'
   import Grid from './Grid.svelte';
   import Container from './Container.svelte';
   import profileImg from '../../assets/profile.jpeg';
 
   const contacts = [
     {
-      href: 'mailto:skaty4870@naver.com',
-      icon: MdEmail,
-      name: 'skaty4870@naver.com',
-    },
-    {
       href: 'https://github.com/Shubidumdu',
       icon: FaGithub,
       name: 'Shubidumdu',
+    },
+    {
+      href: 'https://shubidumdu.github.io/devlog/',
+      icon: FaDev,
+      name: '기술 블로그'
+    },
+    {
+      href: 'mailto:skaty4870@naver.com',
+      icon: MdEmail,
+      name: 'skaty4870@naver.com',
     },
     {
       href: 'https://stackoverflow.com/users/14672911/won-gyo-seo',
