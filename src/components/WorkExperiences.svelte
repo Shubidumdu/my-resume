@@ -4,7 +4,27 @@
   import Article from './Article.svelte';
   import List from './List.svelte';
   import Tags from './Tags.svelte';
+
   const contents = [
+    {
+      period: '2023. 11 ~',
+      title: '마이다스아이티',
+      position: '프론트엔드 개발',
+      desc: [
+        
+      ],
+      tags: [
+        'TypeScript',
+        'React',
+        'NextJS',
+        'React Query',
+        'Jest',
+        'Storybook',
+        'Node.js',
+        'Bitbucket',
+      ],
+      url: 'https://www.midasit.com/',
+    },
     {
       period: '2021. 10 ~ 2023. 04',
       title: '그렙',
@@ -29,8 +49,6 @@
         'Babel',
         'Node.js',
         'Ruby on Rails',
-        'PostgreSQL',
-        'Docker',
         'Google Tag Manager',
         'Github Actions',
         'AWS Lambda',

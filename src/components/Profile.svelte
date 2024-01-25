@@ -15,7 +15,7 @@
       name: 'Shubidumdu',
     },
     {
-      href: 'https://shubidumdu.github.io/devlog/',
+      href: 'https://shubidumdu.github.io/',
       icon: FaDev,
       name: '기술 블로그'
     },
