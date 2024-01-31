@@ -1,4 +1,6 @@
 <script>
+  import FaExternalLinkAlt from 'svelte-icons/fa/FaExternalLinkAlt.svelte';
+
   export let url = '';
   export let title = '';
   export let subtitle = '';
@@ -8,7 +10,10 @@
   <header>
     <div class="title">
       {#if url.length}
-        <a target="_blank" rel="noopener noreferrer" href={url}>{title}</a>
+        <a class="link-wrap" target="_blank" rel="noopener noreferrer" href={url}>
+          <span>{title}</span>
+          <span class="link-icon"><FaExternalLinkAlt /></span>
+        </a>
       {:else}
         {title}
       {/if}
@@ -41,5 +46,16 @@
   .sub-title {
     color: $main;
     margin-top: 0.5rem;
+  }
+
+  .link-wrap {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+  }
+
+  .link-icon {
+    width: 1.2rem;
+    height: 1.2rem;
   }
 </style>
