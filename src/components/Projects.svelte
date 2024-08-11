@@ -129,7 +129,7 @@
       period: '2023',
       title: 'Sketchbook',
       tags: ['TypeScript', 'BabylonJS', 'WebGL', 'WebGPU', 'Vite', 'SASS', 'Github Pages'],
-      descs: ['WebGL/WebGPU와 BabylonJS를 활용한 캔버스 그래픽 작업물들을 모아두는 사이트'],
+      descs: ['WebGL/WebGPU를 활용한 학습 목적의 작업물들을 모아두는 사이트'],
       url: 'https://shubidumdu.github.io/sketchbook/',
     },
     {

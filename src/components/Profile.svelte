@@ -20,9 +20,9 @@
       name: '기술 블로그'
     },
     {
-      href: 'mailto:skaty4870@naver.com',
+      href: 'mailto:shubidumdu@gmail.com',
       icon: MdEmail,
-      name: 'skaty4870@naver.com',
+      name: 'shubidumdu@gmail.com',
     },
     {
       href: 'https://stackoverflow.com/users/14672911/won-gyo-seo',
